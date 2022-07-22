@@ -18,7 +18,7 @@
 - [Bedram Tamang](https://twitter.com/tmg_bedus)
 
 ### Security
-To report security vulnerabilities, email me at [tmgbedu@gmai.com](mailto:tmgbedu@gmail.com)
+To report security vulnerabilities, email me at [tmgbedu@gmail.com](mailto:tmgbedu@gmail.com)
 
 ### License
 

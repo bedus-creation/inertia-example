@@ -19,7 +19,9 @@ class UsersController extends Controller
     public function create()
     {
         return Inertia::basePageUrl('/users')
-            ->dialog('Users/Create',[]);
+            ->dialog('Users/Create', [
+                'roles' => ['Admin', 'User']
+            ]);
     }
 
     public function store()

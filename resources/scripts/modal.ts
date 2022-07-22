@@ -6,7 +6,7 @@ export function useModal() {
     const page = usePage()
 
     const modalProps = computed(() => {
-        return [1, 2]
+        return page.props.value.dialogProps
     })
 
     const modalComponent = computed(() => {
@@ -16,7 +16,7 @@ export function useModal() {
             return false;
         }
 
-        return defineAsyncComponent(() => import('../views/pages/Users/Create.vue'))
+        return defineAsyncComponent(() => import(`../views/pages/${dialog}.vue`))
     })
 
     return {
