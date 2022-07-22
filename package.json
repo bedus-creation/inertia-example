@@ -1,0 +1,30 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "vite",
+        "dev:ssr": "node public/build/ssr.js",
+        "vite": "vite build",
+        "vite:ssr": "yarn vite --ssr --config vite.config.ts"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^2.3.3",
+        "@vue/compiler-sfc": "^3.2.37",
+        "autoprefixer": "^10.4.7",
+        "postcss": "^8.4.14",
+        "tailwindcss": "^3.1.4",
+        "vite": "^2.9.13",
+        "vite-plugin-laravel": "^0.2.0-beta.24"
+    },
+    "dependencies": {
+        "@headlessui/vue": "^1.6.6",
+        "@heroicons/vue": "^1.0.6",
+        "@inertiajs/inertia": "^0.11.0",
+        "@inertiajs/inertia-vue3": "^0.6.0",
+        "@inertiajs/server": "^0.1.0",
+        "@jobinsjp/vue3-datepicker": "^1.0.2-jobins-02",
+        "@vue/server-renderer": "^3.2.37",
+        "laravel-vite-plugin": "^0.2.4",
+        "vue": "^3.2.36",
+        "ziggy-js": "^1.4.6"
+    }
+}
