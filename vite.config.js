@@ -17,7 +17,4 @@ export default defineConfig({
             '@': '/resources',
         },
     },
-    server: {
-        port: 5000
-    }
 });

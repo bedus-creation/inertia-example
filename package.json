@@ -2,7 +2,7 @@
     "private": true,
     "scripts": {
         "dev": "vite",
-        "dev:ssr": "node public/build/ssr.js",
+        "dev:ssr": "node public/dist/ssr.js",
         "vite": "vite build",
         "vite:ssr": "yarn vite --ssr --config vite.config.ts"
     },
